@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="RegressionPARA" parallel= "tests" thread-count ="2">
+
+  <test name="chrome regression testing Para"> <!--preserve-order= "true" [this will be applied inside the tag when we want to run the files in order --> 
+    <parameter name = "browser" value = "chrome" ></parameter>
+    <classes>
+    	
+      <class name="Tests.RegTestPara"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="firefrox regression testing Para"> <!--preserve-order= "true" [this will be applied inside the tag when we want to run the files in order --> 
+    <parameter name = "browser" value = "firefox" ></parameter>
+    <classes>
+    	
+      <class name="Tests.RegTestPara"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="chrome regression testing Para2"> <!--preserve-order= "true" [this will be applied inside the tag when we want to run the files in order --> 
+    <parameter name = "browser" value = "chrome" ></parameter>
+    <classes>
+    	
+      <class name="Tests.RegTestPara"/>
+    
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests.LoginTest" tests="2" skipped="2" failures="0" errors="0" timestamp="2022-08-30T21:40:41" hostname="DESKTOP-U7NCNIN" time="0.005">
+  <properties/>
+  <testcase name="openLoginPage" classname="Tests.LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="LogResult" classname="Tests.LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Aug 30, 2022 11:40:41 PM io.cucumber.core.runtime.FeaturePathFeatureSupplier get
+WARNING: No features found at classpath:/Tests
+[Test worker] WARN org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+]]></system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [RegressionPARA]">
+  <test thread-count="2" parallel="tests" name="firefrox regression testing Para(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Tests.RegTestPara">
+        <methods>
+          <include name="Result"/>
+          <include name="setUP"/>
+          <include name="UserRegTest"/>
+        </methods>
+      </class> <!-- Tests.RegTestPara -->
+    </classes>
+  </test> <!-- firefrox regression testing Para(failed) -->
+  <test thread-count="2" parallel="tests" name="chrome regression testing Para2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Tests.RegTestPara">
+        <methods>
+          <include name="Result"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- Tests.RegTestPara -->
+    </classes>
+  </test> <!-- chrome regression testing Para2(failed) -->
+</suite> <!-- Failed suite [RegressionPARA] -->
